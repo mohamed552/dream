@@ -1,0 +1,18 @@
+.toggle {
+  position: relative;
+  margin: 300px;
+}
+.labels {
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 50px;
+}
+p {
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 10px;
+}
+.labels .s:checked ~ .as {
+  display: none;
+}
